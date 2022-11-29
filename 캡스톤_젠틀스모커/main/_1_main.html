@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<!--     
+    <div style="width:20vw; height:15vh; float:left; background-color: dimgrey;">
+        <button type="button" style="width:100%; height:100%;">
+            <img src="image_resource/home2.png"/>
+        </button>
+    </div>
+
+    <div style="max-width:100vw; height:20vh; background-image:url(image_resource/banner.jpg);">
+        <img src="image_resource/banner.jpg" style="width: 100%; max-height: auto; align-content:center;"/>
+        <h6 style="-webkit-text-fill-color: white;">매너있는 흡연</h6>
+        <h1 style="-webkit-text-fill-color: white;">Gentle Smoker</h1>
+    </div> -->
+
+    <div id="upper_banner" style="width:100vw; height:15vh; background-color: gray;">
+        <div style="width: 30%; height: 100%; float:left;">
+            <button type="button" style="width:100%; height:100%;">
+                <img src="image_resource\button_image\home2.jpg" style="width: 50px; height: 50px; float:bottom; align-self: center;" onclick="location.href='_1_main.html'"/>
+                <p>
+                </p>
+            </button>    
+        </div>
+        <div style="width: 70%; height: 100%; float:left;">
+            <h5 style="-webkit-text-fill-color: white;">매너있는 흡연</h5>
+            <h1 style="-webkit-text-fill-color: white;">Gentle Smoker</h1>
+        </div>
+    </div>
+
+    <div id="lower_banner" style="width:100vw; height:20vh; background-color: black;">
+        <img src="image_resource/banner.jpg" style="width: auto; height:100%; padding:calc((100vw-300px)/2);"/>
+        <!-- 이미지 가운데정렬 필요 -->
+    </div>
+
+
+<!-- 
+    <div id="banner" style="width:100vw; height:45vh; background-color: gray;">
+        <div style="width: 30%; height: 100%; align-self: center; float:left;">
+            <button type="button" style="width:100%; height:100%;">
+                <img src="image_resource\button_image\home2.jpg" style="width: 100%; height: 100%; float:bottom; align-self: center;" onclick="location.href='_1_main.html'"/>
+                <p>
+                </p>
+                홈
+            </button>    
+        </div>
+        <div style="width: 70%; height: auto; float:bottom; align-self: center; float:left;">
+            <img src="image_resource/banner.jpg" style="width: 100%; max-height: auto; align-content:center;"/>
+            <h6 style="-webkit-text-fill-color: white;">매너있는 흡연</h6>
+            <h1 style="-webkit-text-fill-color: white;">Gentle Smoker</h1>
+        </div>
+        
+
+    </div>
+     -->
+
+    
+
+</head>
+<body>
+<!-- 
+    <div id="banner" style="max-width:100vw; height:50vh; align-self: center; background-color: black;">
+        
+    </div> -->
+
+
+
+    <div id="button_box" style="max-width:100vw; height: 50vh; align-items:center;">
+        <button id="map" type="button"  style="width: 25%; height: 30%; float:left;">
+            <img src="image_resource\button_image\map.png" style="width: auto; height: 50%; float:bottom; align-self: center;" onclick="location.href='map.html'"/>
+            <p></p>
+            흡연지도
+        </button>
+        <button id="conv" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='conv.html'">
+            <img src="image_resource\button_image\conv.png" style="width: auto; height: 50%; float:bottom; align-self: center;" />
+            <p></p>
+            금연상담신청
+        </button>
+        <button id="non_smoking" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='non_smokinghtml'">
+            <img src="image_resource\button_image\non_smoking.png" style="width: auto; height: 50%; float:bottom; align-self: center;"/>
+            <p></p>
+            금연포인트
+        </button>
+        <button id="diary" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='diary.html'">
+            <img src="image_resource\button_image\diary.png" style="width: auto; height: 50%; float:bottom; align-self: center;" />
+            <p></p>
+            금연일지
+        </button>
+        <br>
+        <button id="dep" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='dep.html'">
+            <img src="image_resource\button_image\dep.png" style="width: auto; height: 50%; float:bottom; align-self: center;" />
+            <p></p>
+            보건복지부
+        </button>
+        <button id="service" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='service.html'">
+            <img src="image_resource\button_image\service.png" style="width: auto; height: 50%; float:bottom; align-self: center;"/>
+            <p></p>
+            서비스센터
+        </button>
+        <button id="etc1" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='etc1.html'">
+            <img src="image_resource\button_image\service.png" style="width: auto; height: 50%; float:bottom; align-self: center;"/>
+            <p></p>
+            etc1
+        </button>
+        <button id="etc2" type="button"  style="width: 25%; height: 30%; float:left;" onclick="location.href='etc2.html'">
+            <img src="image_resource\button_image\service.png" style="width: auto; height: 50%; float:bottom; align-self: center;"/>
+            <p></p>
+            etc2
+        </button>
+
+
+
+        
+
+
+
+    
+       
+    </div>
+
+    <script>
+    var options = {
+    enableHighAccuracy: true,
+    timeout: 5000,
+    maximumAge: 0
+    };
+
+    function success(pos) {
+    var crd = pos.coords;
+
+    console.log('Your current position is:');
+    console.log(`Latitude : ${crd.latitude}`);
+    console.log(`Longitude: ${crd.longitude}`);
+    console.log(`More or less ${crd.accuracy} meters.`);
+    }
+
+    function error(err) {
+    console.warn(`ERROR(${err.code}): ${err.message}`);
+    }
+
+    navigator.geolocation.getCurrentPosition(success, error, options);
+    
+    //모바일인지 확인
+    var device_type;
+    var filter = "win16|win32|win64|mac";
+        if(navigator.platform){
+            if(0>filter.indexOf(navigator.platform.toLowerCase())){
+                device_type="mobile";
+                alert("mobile");    
+            }
+            else{
+                device_type="pc";
+                alert("모바일 환경에서 진행해 주세요");
+            }
+        }
+    </script>   
+    
+    <script>
+
+    </script>
+
+
+</body>
+</html>
